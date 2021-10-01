@@ -3,20 +3,12 @@ version = 1
 test_patterns = ["tests/**"]
 
 exclude_patterns = [
-  "bootstrap/**",
-  "resources/**",
+  "database/**",
   "storage/**",
-  "database/**"
+  ".idea/**",
+  "vendor/**"
 ]
 
 [[analyzers]]
-name = "javascript"
-enabled = true
-
-[[analyzers]]
 name = "php"
-enabled = true
-
-[[analyzers]]
-name = "secrets"
 enabled = true
