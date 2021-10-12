@@ -23,6 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        print 'Hello';
+        print 'Hello from AppServiceProvider::boot()' . PHP_EOL;
     }
 }
